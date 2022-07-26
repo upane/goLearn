@@ -39,6 +39,7 @@ func TestSliceGrowing(t *testing.T) {
 	// 存储空间的复制
 }
 
+// 切片为共享空间
 func TestShareMod(t *testing.T) {
 	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 	Q2 := numbers[2:3]

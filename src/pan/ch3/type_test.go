@@ -1,4 +1,4 @@
-package type_test
+package ch3
 
 import (
 	"testing"

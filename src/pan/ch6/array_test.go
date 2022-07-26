@@ -4,7 +4,8 @@ import "testing"
 
 // 数组赋值
 func TestArrayInit(t *testing.T) {
-	//var arr [3]int  声明初始化默认值为零
+	// var可以不赋值
+	// var arr [3]int  声明初始化默认值为零
 
 	// 初始化并赋值，需要赋值 ...可不指定长度
 	arr1 := [...]int{123, 12, 124}
