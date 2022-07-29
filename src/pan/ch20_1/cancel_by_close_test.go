@@ -38,6 +38,7 @@ func TestCancel(t *testing.T) {
 			fmt.Println(i, "Canceled")
 		}(i, cancelChan)
 	}
-	cnacel_2(cancelChan)
+	cnacel_1(cancelChan) //传递一个空结构体 接收到一个 就取消一个  最后一条4 Canceled
+	//cnacel_2(cancelChan) // 所有的都被通知去取消 无差别
 	time.Sleep(time.Second * 1)
 }
